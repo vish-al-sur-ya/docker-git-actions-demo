@@ -14,7 +14,7 @@ services:
       - springboot-postgres-net
 
   backend:
-    image: username/docker-git-actions-backend:latest
+    image: vishalsurya20/docker-git-actions-backend:latest
     container_name: docker-springboot
     ports:
       - "2025:2000"
